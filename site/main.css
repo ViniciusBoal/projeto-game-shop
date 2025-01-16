@@ -69,3 +69,12 @@ header h1
 section h2{
     font-weight: normal;
 }
+.logos li img{
+    height: 30px;
+}
+#contato .container{
+    display: block;
+}
+.contact-methods{
+    display: flex;
+}
