@@ -16,16 +16,16 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">Sobre a loja</a>
+                            <a href="#about">Sobre a loja</a>
                         </li>    
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="#contato">Contato</a>
                         </li>
                     </ul>
                 </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
 <img class="shop-front" src="./imagens/loja.jpg" alt="Fachada ada loja games shop">
             <div>
@@ -52,13 +52,15 @@
             <div class="contact-methods">
                 <div>
                     <h3>Fale conosco</h3>
-                    <input type="text" placeholder="Seu Nome">
-                    <input type="email" placeholder="Seu e-mail">
-                    <input type="tel" placeholder="Seu telefone(opcional)">
-                    <textarea name="" id=""></textarea>
-                    <button type="submit">Enviar</button>
+                    <form action="">
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <input type="tel" placeholder="Seu telefone(opcional)">
+                        <textarea name="" id=""></textarea required>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
-                <div>
+                <div class="social-links">
                     <h3>Nos acompanhe</h3>
                     <ul class="logos">
                         <li>
@@ -81,5 +83,12 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game Shop - Todos os diretos reservado 2025
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
